@@ -1,15 +1,21 @@
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+    font-style: normal;
+    font-weight: normal;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    font-family: "Open Sans", sans-serif;
 }
 
-/* common color */
-.dark-2{
-    color: #474747;
+/* button styles */
+.btn-primary{
+    color: white;
+    padding: 20px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FD6E0A;
 }
 
 /* common styles */
@@ -17,24 +23,34 @@
     color: #FD6E0A;
 }
 
+/* common color */
+.dark-2{
+    color: #474747;
+}
+
 nav{
     display: flex;
+    align-items: center;
+    margin: 0px 150px;
+    justify-content: space-between;
 }
 
 .nav-title{
-    font-weight: 800;
     font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
 }
 
 nav ul li{
     list-style: none;
+    margin-right: 50px;
 }
 
 nav li a {
-    text-decoration: none;
     font-size: 20px;
-}
-
-nav ul{
-  display: flex: ;  
+    text-decoration: none;
 }
