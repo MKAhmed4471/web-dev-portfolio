@@ -26,6 +26,7 @@
 .section-description{
     font-size: 18px;
     color: #757575;
+    padding: 0 50px 0 50px;
 }
 
 /* common styles */
@@ -117,12 +118,16 @@ main{
     margin: 0 auto;
 }
 
+main section{
+ margin-top: 130px;
+ margin-bottom: 130px;
+}
+
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
 .about-items{
@@ -140,7 +145,6 @@ main{
 .skills-container{
     display: flex;
     gap: 24px;
-    /* text-align: center; */
 }
 
 .skill{
